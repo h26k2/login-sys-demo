@@ -87,7 +87,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label4
             // 
@@ -99,7 +99,7 @@
             this.label4.Size = new System.Drawing.Size(116, 17);
             this.label4.TabIndex = 6;
             this.label4.Text = "Forget Password ?";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.Click += new System.EventHandler(this.Label4_Click);
             // 
             // Form1
             // 

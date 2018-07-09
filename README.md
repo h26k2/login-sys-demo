@@ -1,7 +1,7 @@
 # Intro
 A login System demo that also has the ability to recover user password along with recovery code expiration feature in c# ( C-Sharp )
 # Description
-This is just a demo login system in which users can login to their accounts and also if the user forgets (his / her ) password then ( he / she) can recover it. The Password Recovery procedure involves finding the user email if it is found the a random code will be sent to the user , and then the user has to input that code if the code is right then the user will be redirected to password reset form. The code also has expiration means after some time the code which was sent to the user will be expired!
+This is just a demo login system in which users can login to their accounts and also if the user forgets (his / her ) password then ( he / she) can recover it. The Password Recovery procedure involves finding the users email if it is found the a random code will be sent to the user , and then the user has to input that code if the code is right then the user will be redirected to password reset form. The code also has expiration means after some time the code which was sent to the user will be expired!
 
 # Dependencies
 1) Visual Studio

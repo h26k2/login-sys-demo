@@ -23,59 +23,59 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.headline = new System.Windows.Forms.Label();
+            this.sorryLabel = new System.Windows.Forms.Label();
+            this.logoutButton = new System.Windows.Forms.Button();
             this.username_label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // headline
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(149, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Demo Dashboard";
+            this.headline.AutoSize = true;
+            this.headline.Font = new System.Drawing.Font("Segoe UI Emoji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headline.Location = new System.Drawing.Point(149, 61);
+            this.headline.Name = "headline";
+            this.headline.Size = new System.Drawing.Size(365, 56);
+            this.headline.TabIndex = 0;
+            this.headline.Text = "Demo Dashboard";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(121, 110);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "We\'re sorry we are working on this form!";
+            this.sorryLabel.AutoSize = true;
+            this.sorryLabel.Location = new System.Drawing.Point(121, 110);
+            this.sorryLabel.Name = "sorryLAbel";
+            this.sorryLabel.Size = new System.Drawing.Size(481, 35);
+            this.sorryLabel.TabIndex = 1;
+            this.sorryLabel.Text = "We\'re sorry we are working on this form!";
             // 
-            // button1
+            // logoutButton
             // 
-            this.button1.Location = new System.Drawing.Point(188, 158);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 28);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Logout";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.logoutButton.Location = new System.Drawing.Point(188, 158);
+            this.logoutButton.Name = "logoutButton";
+            this.logoutButton.Size = new System.Drawing.Size(121, 57);
+            this.logoutButton.TabIndex = 2;
+            this.logoutButton.Text = "Logout";
+            this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
             // 
             // username_label
             // 
             this.username_label.AutoSize = true;
-            this.username_label.Location = new System.Drawing.Point(347, 19);
+            this.username_label.Location = new System.Drawing.Point(383, 169);
             this.username_label.Name = "username_label";
-            this.username_label.Size = new System.Drawing.Size(67, 17);
+            this.username_label.Size = new System.Drawing.Size(131, 35);
             this.username_label.TabIndex = 3;
             this.username_label.Text = "Username";
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 35F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 215);
+            this.ClientSize = new System.Drawing.Size(728, 285);
             this.Controls.Add(this.username_label);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.logoutButton);
+            this.Controls.Add(this.sorryLabel);
+            this.Controls.Add(this.headline);
             this.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Dashboard";
@@ -88,9 +88,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label headline;
+        private System.Windows.Forms.Label sorryLabel;
+        private System.Windows.Forms.Button logoutButton;
         private System.Windows.Forms.Label username_label;
     }
 }
